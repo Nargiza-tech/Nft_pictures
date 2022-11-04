@@ -1,0 +1,18 @@
+.container {
+    font-size: 20px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.imgInfo{
+    height: 500px;
+    width: 450px;
+
+}
+
+
+

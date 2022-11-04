@@ -1,0 +1,68 @@
+.container {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "image" "text" "btn";
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    height: 530px;
+    box-shadow: 10px 10px 40px #434040;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+}
+
+
+img {
+    grid-area: image;
+    width: 350px;
+    height: 350px;
+
+}
+
+.title {
+    grid-area: text;
+    margin-top: 15px;
+    color: #13719b;
+}
+
+
+.btn {
+    grid-area: btn;
+    margin-top: 40px;
+    font-size: 22px;
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    padding: 5px;
+    color: skyblue;
+}
+
+
+.btn:hover {
+    background-color: skyblue;
+    color: white;
+    box-shadow: 5px 5px 10px #169ed7;
+}
