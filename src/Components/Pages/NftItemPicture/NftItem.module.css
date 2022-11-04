@@ -10,8 +10,19 @@
 
 .imgInfo{
     height: 500px;
-    width: 450px;
+    width: 440px;
 
+}
+
+
+
+.loading__img{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 

@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import styles from './NftItem.module.css'
 import {useSelector} from "react-redux";
-import notPhotos from '../../../assets/img/No_image_available.svg.png';
+import notPhoto from '../../../assets/img/No_image_available.png';
+import {Spin} from "antd";
 
 const NftItemsInfo = () => {
 
@@ -14,9 +15,13 @@ const NftItemsInfo = () => {
             <div className="card mb-3" style={{maxWidth: "1050px"}}>
                 <div className="row g-10">
                     <div className="col-md-6">
-
-                        {card ? <img className={styles.imgInfo} src={card.image_url} alt=""/> : (
-                            <img src={notPhotos} alt=""/>)}
+                        {card ? (
+                            <img src={card.image_url} alt="image" className={styles.imgInfo} />
+                        ) : (
+                            <div className={styles.loading__img}>
+                                <Spin tip="Loading..." />
+                            </div>)
+                        }
 
                     </div>
                     <div className="col-md-5" style={{paddingTop: "50px"}}>
