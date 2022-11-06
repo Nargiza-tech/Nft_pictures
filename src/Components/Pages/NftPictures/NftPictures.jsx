@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import styles from './NftPictures.module.css'
 import {useNavigate, useParams} from "react-router";
 import {Link} from "react-router-dom";
-import notPhoto from  '../../../assets/noImgAvailable.png'
+import notPhoto from  "../../assets/noImgAvailable.png";
 import {ntfPicture1} from "../../../Redux/Slice/Nft_pictureSlice";
 
 
