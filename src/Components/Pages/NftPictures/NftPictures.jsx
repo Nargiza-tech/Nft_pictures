@@ -31,7 +31,7 @@ const NftPictures = () => {
                             item.image_url ? (<img src={item.image_url} alt="картина"/>) : (<img src="https://pchelp24.com/wp-content/uploads/images/05(1).png" alt="картина"/>)
                         }
                         <h4 className={styles.title}>
-                            Name: <span className="sub_title">{item.name ? item.name : 'Unknown'}</span>
+                             <span className="sub_title">{item.name ? item.name : 'Unknown'}</span>
                         </h4>
 
                         <Link to={`/nft:/${item.id}`}>
