@@ -39,7 +39,6 @@
 
     transition: 0.5s ease;
     cursor: pointer;
-    /*margin: 30px;*/
 }
 
 
@@ -102,6 +101,7 @@ img {
         grid-template-rows: repeat(10, 1fr);
     }
     .card{
+        font-size: 18px;
         width: 300px;
     }
     img{
