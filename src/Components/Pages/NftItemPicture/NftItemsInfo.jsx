@@ -1,4 +1,3 @@
-import React, {useEffect, useState} from 'react'
 import styles from './NftItem.module.css'
 import {useSelector} from "react-redux";
 import {Spin} from "antd";
