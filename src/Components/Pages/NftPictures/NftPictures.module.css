@@ -91,6 +91,7 @@ img {
 
 @media (max-width: 400px) {
     .container{
+        padding: 0 20px;
         box-sizing: border-box;
         display: grid;
         grid-column-gap: 10px;
@@ -99,14 +100,14 @@ img {
         grid-template-rows: repeat(10, 1fr);
     }
     .card{
-        width: 250px;
+        width: 300px;
     }
     img{
         width: 150px;
         height: 150px;
     }
     .btn{
-        width: 250px;
+        width: 200px;
         height: 40px;
     }
 }
