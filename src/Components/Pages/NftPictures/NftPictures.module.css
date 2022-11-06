@@ -84,6 +84,7 @@ img {
         grid-template-rows: repeat(8, 1fr);
     }
 
+
 }
 
 
@@ -97,5 +98,15 @@ img {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(10, 1fr);
     }
-
+    .card{
+        width: 250px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .btn{
+        width: 250px;
+        height: 40px;
+    }
 }
