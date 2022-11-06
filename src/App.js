@@ -31,7 +31,7 @@ function App() {
                     <Spin tip="Loading..."/>
                 </div>
                 :
-                <div className="App">
+                <div>
 
                     <Main/>
                     <Routes>
