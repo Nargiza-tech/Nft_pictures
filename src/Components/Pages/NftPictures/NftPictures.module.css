@@ -13,7 +13,8 @@
 
 
 .header{
-    /*padding: 5px 0  100px 5px;*/
+    padding-left: 20px;
+    padding-top: 5px;
     width: 100%;
     height: 90px;
     background-color: skyblue;
@@ -104,11 +105,11 @@ img {
         width: 300px;
     }
     img{
-        width: 150px;
-        height: 150px;
+        width: 220px;
+        height: 210px;
     }
     .btn{
-        width: 200px;
-        height: 40px;
+        height: 45px;
+        width: 250px;
     }
 }
