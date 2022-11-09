@@ -1,5 +1,4 @@
 .container {
-    padding: 0 20px;
     font-size: 20px;
     margin-top: 100px;
     display: flex;
@@ -10,16 +9,17 @@
 
 
 .imgInfo{
-    height: 500px;
-    width: 440px;
+
+    max-height: 500px;
+    max-width: 440px;
 
 }
 
 
 
 .loading__img{
-    width: 300px;
-    height: 40px;
+    max-width: 300px;
+    max-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,11 +30,12 @@
 
 @media (max-width: 1500px) {
     .container{
-        padding: 20px;
+        padding-top: 20px;
+
     }
     .imgInfo{
-        height: 400px;
-        width: 340px;
+        max-height: 400px;
+        max-width: 340px;
 
     }
 }
@@ -42,11 +43,21 @@
 
 @media (max-width: 700px) {
     .container{
-        padding: 20px;
+        padding: 10px;
     }
     .imgInfo{
-        height: 400px;
-        width: 340px;
+        max-height: 400px;
+        max-width: 340px;
+
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .imgInfo{
+        max-height: 250px;
+        max-width: 240px;
 
     }
 }

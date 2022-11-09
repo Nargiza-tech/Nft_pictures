@@ -21,16 +21,17 @@
 
 
 .card {
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
     box-sizing: border-box;
     width: 400px;
-    box-shadow: 10px 10px 40px #434040;
+    border: 1px solid #6666;
+
 }
 
 .card:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -43,8 +44,8 @@
 
 
 img {
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
 
 }
 

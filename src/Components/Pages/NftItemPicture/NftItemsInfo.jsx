@@ -10,7 +10,7 @@ const NftItemsInfo = () => {
     return (
 
         <div className={styles.container}>
-            <div className="card mb-3" style={{maxWidth: "1050px"}}>
+            <div className="card mb-3" style={{maxWidth: "1050px", padding: "20px"}}>
                 <div className="row g-10">
                     <div className="col-md-6">
                         {card ? (
