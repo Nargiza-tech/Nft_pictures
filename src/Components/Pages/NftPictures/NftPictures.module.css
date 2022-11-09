@@ -152,8 +152,8 @@ img {
 
 
 @media (max-width: 370px) {
-    .container{
-       padding: 10px 0;
+    .container {
+        padding: 10px 0;
         box-sizing: border-box;
         display: grid;
         grid-column-gap: 30px;
@@ -161,18 +161,21 @@ img {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(10, 1fr);
     }
-    .card{
+
+    .card {
         box-sizing: border-box;
         padding: 20px;
         font-size: 18px;
         max-width: 300px;
         margin-top: 25px;
     }
-    img{
+
+    img {
         max-width: 220px;
         max-height: 210px;
     }
-    .btn{
+
+    .btn {
         max-height: 45px;
         max-width: 250px;
     }
