@@ -121,7 +121,37 @@ img {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 970px) {
+    .container{
+        padding-left: 42px;
+        padding-right: 42px;
+        box-sizing: border-box;
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    .card{
+        box-sizing: border-box;
+        padding: 20px;
+        font-size: 18px;
+        max-width: 300px;
+        margin-top: 25px;
+    }
+    img{
+        max-width: 220px;
+        max-height: 210px;
+    }
+    .btn{
+        max-height: 45px;
+        max-width: 250px;
+    }
+}
+
+
+
+@media (max-width: 700px) {
     .container{
         padding-left: 42px;
         padding-right: 42px;
