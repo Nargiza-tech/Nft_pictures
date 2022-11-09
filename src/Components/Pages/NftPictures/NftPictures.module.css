@@ -37,6 +37,7 @@
 
     transition: 0.5s ease;
     cursor: pointer;
+    margin: 0 0 0 31.5%;
 }
 
 
@@ -88,7 +89,7 @@ img {
 
 
 
-@media (max-width: 760px) {
+@media (max-width: 1550px) {
     .container{
         padding: 100px 42px;
         box-sizing: border-box;
